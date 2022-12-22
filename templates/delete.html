@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Delete
+{% endblock %}
+
+
+{% block content %}
+    
+<h1>Delete Page</h1>
+<hr>
+<!--{% with  messages = get_flashed_messages() %}
+        {%if messages%}
+                {%for msg in messages%}
+                        <p>{{msg}}</p>
+                {%endfor%}
+        {%endif%}
+{%endwith%} -->
+
+    <form method="POST" action="">
+        <p><input type="submit" name="submit"/></p>
+    </form>
+{% endblock %}
